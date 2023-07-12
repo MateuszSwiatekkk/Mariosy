@@ -33,27 +33,31 @@ public class Recommendations {
         return marios;
     }
 
-    public Set<String> getUsers() {
-        if (users.contains(null) || users.isEmpty()) {
-            return Set.of("none");
-        }
-        return users.stream().map(User::getSurname).collect(Collectors.toSet());
+    public Set<User> getUsers() {
+        return users;
     }
 
-    public Optional<User> findUser(String surname) {
+    public User findUserById(long id) {
         return users.stream()
-                .filter(user -> user.getSurname().equals(surname)).findAny();
+                .filter(user -> user.getId()==id).findAny().orElseThrow();
     }
 
     public Set<Marios> getSentMarios(long userId) {
         return marios.stream().filter(m -> m.getSender().getId()==userId).collect(Collectors.toSet());
     }
 
-    public long getReceivedMarios(String surname) {
+    public Set<Marios> getReceivedMarios(long userId) {
         return marios.stream()
                 .filter(marios -> marios.getRecipents().stream()
-                        .anyMatch(user -> user.getSurname().equals(surname)))
-                .count();
+                        .anyMatch(user -> user.getId()==userId))
+                .collect(Collectors.toSet());
     }
-
+    public void createMarios(long id, MariosTypes mariostype, User sender, List<User> recipents, String message){
+        Marios nextMarios=new Marios(id, mariostype, sender, recipents, message);
+        marios.add(nextMarios);
+    }
+    public void createUser(long id,String name,String surname,String email){
+        User nextUser=new User(id,name,surname,email);
+        users.add(nextUser);
+    }
 }

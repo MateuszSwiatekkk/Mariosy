@@ -5,6 +5,6 @@ public enum MariosTypes {
     LUIGI,
     WARIO,
     PRINCESS_PEACH,
-    KOOPA_TROOPA
+    KOOPA_TROOPA;
 
 }
