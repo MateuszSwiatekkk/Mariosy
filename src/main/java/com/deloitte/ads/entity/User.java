@@ -1,16 +1,24 @@
 package com.deloitte.ads.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.checkerframework.checker.units.qual.C;
 
 import javax.persistence.*;
 import java.util.List;
 
-@Entity(name="USERS")
-public class User {
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table(name = "users")
+@Getter
+@Setter
+public class User{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="ID")
-    private long id;
+    private Long userid;
     @Column(name="name")
     private String name;
     @Column(name="surname")
@@ -18,46 +26,9 @@ public class User {
     @Column(name="email")
     private String email;
 
-    public User(long id, String name, String surname,String email) {
-        this.id = id;
+    public User(String name, String surname, String email) {
         this.name = name;
         this.surname = surname;
-        this.email = email;
-    }
-
-    public User() {
-
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
         this.email = email;
     }
 }

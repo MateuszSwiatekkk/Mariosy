@@ -1,37 +1,36 @@
 package com.deloitte.ads.controller;
 
 import com.deloitte.ads.entity.User;
-import com.deloitte.ads.entity.UserDTO;
-import com.deloitte.ads.service.Recommendations;
+import com.deloitte.ads.dto.UserDTO;
+import com.deloitte.ads.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Set;
 
-//GET:all users
-//POST:user
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
     @Autowired
-    Recommendations recommendations;
+    UserService userService;
 
     @GetMapping
     public Set<User> getAllUsers() {
-        return recommendations.getUsers();
+        return userService.getUsers();
     }
-
-    @GetMapping("{userId}")
-    public User findUserById(@PathVariable long userId) {
-        return recommendations.findUserById(userId);
+    @GetMapping("/{userId}")
+    public User getUserById(@PathVariable Long userId){
+        return userService.getUserById(userId);
     }
 
     @PostMapping("/create")
-    public void addUser(@RequestBody UserDTO userDTO) {
-        long id = 4;
-        String name = userDTO.getName();
-        String surname = userDTO.getSurname();
-        String email = userDTO.getEmail();
-        recommendations.createUser(id, name, surname, email);
+    public void addUser(@RequestBody UserDTO user) {
+        userService.createUser(user);
     }
+
+//    @GetMapping("{userId}")
+//    public User findUserById(@PathVariable long userId) {
+//        return recommendations.findUserById(userId);
+//    }
+//
 }

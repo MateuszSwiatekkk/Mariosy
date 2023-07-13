@@ -1,59 +1,29 @@
 package com.deloitte.ads.entity;
 
-import java.util.List;
+import lombok.*;
 
-public class Marios {
-    private long id;
-    private String mariostype;
-    private User sender;
-    private List<User> recipents;
+import javax.persistence.*;
+import java.util.List;
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Entity
+@Table(name = "marios")
+public class Marios{
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long mariosId;
+    @Column(name = "mariostype")
+    private String mariosType;
+    @Column(name = "senderid")
+    private Long senderId;
+    @Column(name = "message")
     private String message;
 
-    public Marios(long id, String mariostype, User sender, List<User> recipents, String message) {
-        this.id = id;
-        this.mariostype = mariostype;
-        this.sender = sender;
-        this.recipents = recipents;
-        this.message = message;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getMariostype() {
-        return mariostype;
-    }
-
-    public void setMariostype(String mariostype) {
-        this.mariostype = mariostype;
-    }
-
-    public User getSender() {
-        return sender;
-    }
-
-    public void setSender(User sender) {
-        this.sender = sender;
-    }
-
-    public List<User> getRecipents() {
-        return recipents;
-    }
-
-    public void setRecipents(List<User> recipents) {
-        this.recipents = recipents;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
+    public Marios(String mariosType, Long senderId, String message) {
+        this.mariosType = mariosType;
+        this.senderId = senderId;
         this.message = message;
     }
 }

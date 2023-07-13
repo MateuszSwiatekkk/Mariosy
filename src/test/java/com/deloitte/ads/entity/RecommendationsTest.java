@@ -1,16 +1,5 @@
 package com.deloitte.ads.entity;
 
-import com.deloitte.ads.service.Recommendations;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
-
 class RecommendationsTest {
 //    @InjectMocks
 //    private Recommendations recommendations;
