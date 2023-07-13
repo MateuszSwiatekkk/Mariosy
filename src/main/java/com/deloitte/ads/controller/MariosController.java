@@ -2,14 +2,12 @@ package com.deloitte.ads.controller;
 
 import com.deloitte.ads.entity.Marios;
 import com.deloitte.ads.entity.MariosDTO;
-import com.deloitte.ads.entity.MariosTypes;
 import com.deloitte.ads.entity.User;
 import com.deloitte.ads.service.Recommendations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.Set;
 
 //GET:all marios, user sent marios,user received marios //DONE
@@ -38,11 +36,11 @@ public class MariosController {
     @PostMapping("/createMarios/{userId}")
     public void addMarios(@RequestBody MariosDTO mariosDTO) {
         long id = 4;
-        MariosTypes mariosType = mariosDTO.getMariosTypes();
-        //stringi ze stalych przypisac do pola string
+
         User user = mariosDTO.getSender();
         List<User> recipents = mariosDTO.getRecipents();
         String msg = mariosDTO.getMessage();
+        String mariosType = mariosDTO.getMariosTypes();
         recommendations.createMarios(id, mariosType, user, recipents, msg);
     }
 }

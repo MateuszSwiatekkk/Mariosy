@@ -3,7 +3,7 @@ package com.deloitte.ads.entity;
 import java.util.List;
 
 public class MariosDTO {
-    private MariosTypes mariosTypes;
+    private String mariosTypes;
     private User sender;
     private List<User> recipents;
     private String message;
@@ -17,20 +17,19 @@ public class MariosDTO {
         this.sender = sender;
     }
 
-    public MariosTypes getMariosTypes() {
-        return mariosTypes;
-    }
-
-    public void setMariosTypes(MariosTypes mariosTypes) {
-        this.mariosTypes = mariosTypes;
-    }
-
     public List<User> getRecipents() {
         return recipents;
     }
 
     public void setRecipents(List<User> recipents) {
         this.recipents = recipents;
+    }
+    public String getMariosTypes() {
+        return mariosTypes;
+    }
+
+    public void setMariosTypes(String mariosTypes) {
+        this.mariosTypes = mariosTypes;
     }
 
     public String getMessage() {

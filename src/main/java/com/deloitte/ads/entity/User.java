@@ -1,11 +1,21 @@
 package com.deloitte.ads.entity;
 
+import org.checkerframework.checker.units.qual.C;
+
+import javax.persistence.*;
 import java.util.List;
 
+@Entity(name="USERS")
 public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name="ID")
     private long id;
+    @Column(name="name")
     private String name;
+    @Column(name="surname")
     private String surname;
+    @Column(name="email")
     private String email;
 
     public User(long id, String name, String surname,String email) {
@@ -13,6 +23,10 @@ public class User {
         this.name = name;
         this.surname = surname;
         this.email = email;
+    }
+
+    public User() {
+
     }
 
     public long getId() {

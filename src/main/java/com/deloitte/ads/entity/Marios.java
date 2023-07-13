@@ -4,12 +4,12 @@ import java.util.List;
 
 public class Marios {
     private long id;
-    private MariosTypes mariostype;
+    private String mariostype;
     private User sender;
     private List<User> recipents;
     private String message;
 
-    public Marios(long id, MariosTypes mariostype, User sender, List<User> recipents, String message) {
+    public Marios(long id, String mariostype, User sender, List<User> recipents, String message) {
         this.id = id;
         this.mariostype = mariostype;
         this.sender = sender;
@@ -25,11 +25,11 @@ public class Marios {
         this.id = id;
     }
 
-    public MariosTypes getMariostype() {
+    public String getMariostype() {
         return mariostype;
     }
 
-    public void setMariostype(MariosTypes mariostype) {
+    public void setMariostype(String mariostype) {
         this.mariostype = mariostype;
     }
 
