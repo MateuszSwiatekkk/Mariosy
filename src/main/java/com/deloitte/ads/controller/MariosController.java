@@ -39,10 +39,10 @@ public class MariosController {
     public void addMarios(@RequestBody MariosDTO mariosDTO) {
         long id = 4;
         MariosTypes mariosType = mariosDTO.getMariosTypes();
+        //stringi ze stalych przypisac do pola string
         User user = mariosDTO.getSender();
         List<User> recipents = mariosDTO.getRecipents();
         String msg = mariosDTO.getMessage();
         recommendations.createMarios(id, mariosType, user, recipents, msg);
     }
-
 }
