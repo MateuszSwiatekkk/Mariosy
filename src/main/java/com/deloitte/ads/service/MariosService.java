@@ -5,6 +5,7 @@ import com.deloitte.ads.entity.Marios;
 import com.deloitte.ads.entity.User;
 import com.deloitte.ads.repository.MariosRepository;
 import com.deloitte.ads.repository.UserRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,12 +15,10 @@ import java.util.Set;
 
 
 @Service
-
+@AllArgsConstructor
 public class MariosService {
-    @Autowired
-    private MariosRepository mariosRepository;
-    @Autowired
-    private UserRepository userRepository;
+    private final MariosRepository mariosRepository;
+    private final UserRepository userRepository;
 
     public Set<Marios> getMarios() {
         return new HashSet<>(mariosRepository.findAll());

@@ -29,6 +29,8 @@ public class Marios{
             joinColumns = @JoinColumn(name = "mariosid"),
             inverseJoinColumns = @JoinColumn(name = "userid"))
     @JsonManagedReference
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "userid")
+    @JsonIdentityReference(alwaysAsId = true)
     private Set<User> recipents;
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "senderid")
