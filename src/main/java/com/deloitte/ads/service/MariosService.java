@@ -19,21 +19,31 @@ import java.util.Set;
 public class MariosService {
     private final MariosRepository mariosRepository;
     private final UserRepository userRepository;
+    private final UserService userService;
 
     public Set<Marios> getMarios() {
         return new HashSet<>(mariosRepository.findAll());
     }
 
-    public void createMarios(/*MariosDTO mariosDTO*/) {
-        User user1=new User("name1","surname1","mail1",new HashSet<>(),new HashSet<>());
-        User user2=new User("name2","surname2","mail2",new HashSet<>(),new HashSet<>());
-        User user3=new User("name3","surname3","mail3",new HashSet<>(),new HashSet<>());
+    public void createMarios(MariosDTO mariosDTO) {
+//        User user1=new User("name1","surname1","mail1",new HashSet<>(),new HashSet<>());
+//        User user2=new User("name2","surname2","mail2",new HashSet<>(),new HashSet<>());
+//        User user3=new User("name3","surname3","mail3",new HashSet<>(),new HashSet<>());
 
-        userRepository.save(user1);
-        userRepository.save(user2);
-        userRepository.save(user3);
+//        userRepository.save(user1);
+//        userRepository.save(user2);
+//        userRepository.save(user3);
+        Long senderId = mariosDTO.getSenderId();
+        User sender = userService.getUserById(senderId);
 
-        Marios marios = new Marios("mariosik","msg",Set.of(user1,user2),user3);
+        Set<Long> recipentIds = mariosDTO.getRecipents();
+        Set<User> recipentUsers = new HashSet<>();
+        for(Long id : recipentIds){
+            recipentUsers.add(userService.getUserById(id));
+        }
+
+
+        Marios marios = new Marios(mariosDTO.getMariosTypes(), mariosDTO.getMessage(), recipentUsers,sender);
 //        Marios marios = new Marios(mariosDTO.getMariosTypes(),mariosDTO.getSenderId(),mariosDTO.getMessage());
         mariosRepository.save(marios);
 
