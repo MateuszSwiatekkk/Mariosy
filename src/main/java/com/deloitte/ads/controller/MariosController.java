@@ -26,6 +26,10 @@ public class MariosController {
     public Set<Marios>getUserCreatedMarios(@PathVariable Long userId){
         return mariosService.getUserCreatedMarios(userId);
     }
+    @GetMapping("/{userId}/receivedMarios")
+    public Set<Marios>getUserReceivedMarios(@PathVariable Long userId){
+        return mariosService.getUserReceivedMarios(userId);
+    }
     @PostMapping("/createMarios")
     public void addMarios(@RequestBody MariosDTO mariosDTO) {
         mariosService.createMarios(mariosDTO);
