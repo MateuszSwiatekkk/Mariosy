@@ -1,5 +1,6 @@
 package com.deloitte.ads.controller;
 
+import com.deloitte.ads.entity.Marios;
 import com.deloitte.ads.entity.User;
 import com.deloitte.ads.dto.UserDTO;
 import com.deloitte.ads.service.UserService;

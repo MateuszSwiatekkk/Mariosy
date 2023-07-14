@@ -3,6 +3,7 @@ package com.deloitte.ads.controller;
 import com.deloitte.ads.dto.MariosDTO;
 import com.deloitte.ads.entity.Marios;
 import com.deloitte.ads.service.MariosService;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,13 +13,18 @@ import java.util.Set;
 //POST:marios //DONE
 @RestController
 @RequestMapping("/api/marios")
+@AllArgsConstructor
 public class MariosController {
-    @Autowired
-    private MariosService mariosService;
+
+    private final MariosService mariosService;
 
     @GetMapping
     public Set<Marios> getAllMarios() {
         return mariosService.getMarios();
+    }
+    @GetMapping("/{userId}/createdMarios")
+    public Set<Marios>getUserCreatedMarios(@PathVariable Long userId){
+        return mariosService.getUserCreatedMarios(userId);
     }
     @PostMapping("/createMarios")
     public void addMarios(@RequestBody MariosDTO mariosDTO) {

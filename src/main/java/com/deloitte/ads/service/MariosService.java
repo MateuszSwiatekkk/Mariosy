@@ -50,6 +50,11 @@ public class MariosService {
 
 
     }
+
+    public Set<Marios> getUserCreatedMarios(Long userId) {
+        User user=userService.getUserById(userId);
+        return user.getCreatedMarios();
+    }
 //    public Recommendations(Set<Marios> marios, Set<User> users) {
 //    }
 //
