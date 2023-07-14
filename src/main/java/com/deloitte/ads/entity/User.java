@@ -5,10 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.checkerframework.checker.units.qual.C;
 
 import javax.persistence.*;
-import java.util.List;
 import java.util.Set;
 
 @AllArgsConstructor
@@ -30,20 +28,22 @@ public class User{
     private String surname;
     @Column(name="email")
     private String email;
-    @ManyToMany(mappedBy = "receivers")
+    @ManyToMany(mappedBy = "recipents")
     @JsonBackReference
-    private Set<Marios> received_marioses;
+    private Set<Marios> receivedMarios;
     @OneToMany(
-            mappedBy = "creator",
+            mappedBy = "sender",
             cascade = {CascadeType.ALL})
     @JsonManagedReference
-    private Set<Marios> created_marioses;
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "mariosId")
+    @JsonIdentityReference(alwaysAsId = true)
+    private Set<Marios> createdMarios;
 
-    public User(String name, String surname, String email, Set<Marios> received_marioses, Set<Marios> created_marioses) {
+    public User(String name, String surname, String email, Set<Marios> receivedMarios, Set<Marios> createdMarios) {
         this.name = name;
         this.surname = surname;
         this.email = email;
-        this.received_marioses = received_marioses;
-        this.created_marioses = created_marioses;
+        this.receivedMarios = receivedMarios;
+        this.createdMarios = createdMarios;
     }
 }

@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.*;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.List;
 import java.util.Set;
 
 @AllArgsConstructor
@@ -26,22 +25,20 @@ public class Marios{
     private String message;
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
-            name = "marios_receiver",
-            joinColumns = @JoinColumn(name = "marios_id"),
-            inverseJoinColumns = @JoinColumn(name = "user_id"))
+            name = "mariosreceived",
+            joinColumns = @JoinColumn(name = "mariosid"),
+            inverseJoinColumns = @JoinColumn(name = "userid"))
     @JsonManagedReference
-    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "userid")
-    @JsonIdentityReference(alwaysAsId = true)
-    private Set<User> receivers;
+    private Set<User> recipents;
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "ref_creator_id")
+    @JoinColumn(name = "senderid")
     @JsonBackReference
-    private User creator;
+    private User sender;
 
-    public Marios(String mariosType, String message, Set<User> receivers, User creator) {
+    public Marios(String mariosType, String message, Set<User> recipents, User sender) {
         this.mariosType = mariosType;
         this.message = message;
-        this.receivers = receivers;
-        this.creator = creator;
+        this.recipents = recipents;
+        this.sender = sender;
     }
 }
