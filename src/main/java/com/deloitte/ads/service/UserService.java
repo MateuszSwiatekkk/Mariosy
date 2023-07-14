@@ -25,7 +25,7 @@ public class UserService {
     }
 
     public void createUser(UserDTO userDTO) {
-        User nextUser = new User(userDTO.getName(), userDTO.getSurname(), userDTO.getEmail());
-        userRepository.save(nextUser);
+//        User nextUser = new User(userDTO.getName(), userDTO.getSurname(), userDTO.getEmail());
+//        userRepository.save(nextUser);
     }
 }

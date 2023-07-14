@@ -21,8 +21,8 @@ public class MariosController {
         return mariosService.getMarios();
     }
     @PostMapping("/createMarios")
-    public void addMarios(@RequestBody MariosDTO mariosDTO) {
-        mariosService.createMarios(mariosDTO);
+    public void addMarios(/*@RequestBody MariosDTO mariosDTO*/) {
+        mariosService.createMarios(/*mariosDTO*/);
     }
 //
 //    @GetMapping("/sentMarios/{userId}")

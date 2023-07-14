@@ -2,6 +2,7 @@ package com.deloitte.ads.service;
 
 import com.deloitte.ads.dto.MariosDTO;
 import com.deloitte.ads.entity.Marios;
+import com.deloitte.ads.entity.User;
 import com.deloitte.ads.repository.MariosRepository;
 import com.deloitte.ads.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +25,19 @@ public class MariosService {
         return new HashSet<>(mariosRepository.findAll());
     }
 
-    public void createMarios(MariosDTO mariosDTO) {
-        Marios marios = new Marios(mariosDTO.getMariosTypes(),mariosDTO.getSenderId(),mariosDTO.getMessage());
+    public void createMarios(/*MariosDTO mariosDTO*/) {
+        User user1=new User("name1","surname1","mail1",new HashSet<>(),new HashSet<>());
+        User user2=new User("name2","surname2","mail2",new HashSet<>(),new HashSet<>());
+        User user3=new User("name3","surname3","mail3",new HashSet<>(),new HashSet<>());
+
+        userRepository.save(user1);
+        userRepository.save(user2);
+        userRepository.save(user3);
+
+        Marios marios = new Marios("mariosik","msg",Set.of(user1,user2),user3);
+//        Marios marios = new Marios(mariosDTO.getMariosTypes(),mariosDTO.getSenderId(),mariosDTO.getMessage());
         mariosRepository.save(marios);
+
 
 
 
