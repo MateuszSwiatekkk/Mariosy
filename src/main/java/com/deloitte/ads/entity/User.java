@@ -18,19 +18,24 @@ import java.util.Set;
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
         property = "userid")
-public class User{
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userid;
-    @Column(name="name")
+
+    @Column(name = "name")
     private String name;
-    @Column(name="surname")
+
+    @Column(name = "surname")
     private String surname;
-    @Column(name="email")
+
+    @Column(name = "email")
     private String email;
+
     @ManyToMany(mappedBy = "recipents")
     @JsonBackReference
     private Set<Marios> receivedMarios;
+
     @OneToMany(
             mappedBy = "sender",
             cascade = {CascadeType.ALL})

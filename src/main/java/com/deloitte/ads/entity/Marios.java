@@ -15,24 +15,28 @@ import java.util.Set;
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
         property = "mariosId")
-public class Marios{
+public class Marios {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long mariosId;
+
     @Column(name = "mariostype")
     private String mariosType;
+
     @Column(name = "message")
     private String message;
-    @ManyToMany(cascade = CascadeType.ALL)
+
+    @ManyToMany
     @JoinTable(
             name = "mariosreceived",
             joinColumns = @JoinColumn(name = "mariosid"),
             inverseJoinColumns = @JoinColumn(name = "userid"))
     @JsonManagedReference
     @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "userid")
-    @JsonIdentityReference(alwaysAsId = true)
+    @JsonIdentityReference(alwaysAsId = true)  //lazy/eager
     private Set<User> recipents;
-    @ManyToOne(cascade = CascadeType.ALL)
+
+    @ManyToOne
     @JoinColumn(name = "senderid")
     @JsonBackReference
     private User sender;
@@ -43,4 +47,5 @@ public class Marios{
         this.recipents = recipents;
         this.sender = sender;
     }
+
 }

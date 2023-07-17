@@ -34,6 +34,11 @@ public class MariosController {
     public void addMarios(@RequestBody MariosDTO mariosDTO) {
         mariosService.createMarios(mariosDTO);
     }
+
+    @DeleteMapping("/delete/{mariosId}")
+    public void deleteMarios(@PathVariable Long mariosId){
+        mariosService.deleteMarios(mariosId);
+    }
 //
 //    @GetMapping("/sentMarios/{userId}")
 //    public Set<Marios> getUserSentMarios(@PathVariable long userId) {

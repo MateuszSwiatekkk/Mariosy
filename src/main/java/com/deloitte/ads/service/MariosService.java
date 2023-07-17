@@ -60,6 +60,16 @@ public class MariosService {
         User user = userService.getUserById(userId);
         return user.getReceivedMarios();
     }
+
+    public void deleteMarios(Long mariosId) {
+        Marios marios = mariosRepository.findById(mariosId).orElseThrow();
+//        Set<User> users = marios.getRecipents();
+//        for(User user:users){
+//            user.getReceivedMarios().remove(marios);
+//        }
+//        marios.setRecipents(null);
+        mariosRepository.delete(marios);
+    }
 //    public Recommendations(Set<Marios> marios, Set<User> users) {
 //    }
 //
