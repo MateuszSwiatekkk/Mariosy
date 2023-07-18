@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bc57369-6e7a-41eb-9f40-a88e386b2859" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/135b8ba4-407d-4837-83d8-8a3997eb16e9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/135b8ba4-407d-4837-83d8-8a3997eb16e9/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/135b8ba4-407d-4837-83d8-8a3997eb16e9/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/135b8ba4-407d-4837-83d8-8a3997eb16e9/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/135b8ba4-407d-4837-83d8-8a3997eb16e9/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d35eb385-1af5-47f8-8b8d-a8f1a053bb85.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d35eb385-1af5-47f8-8b8d-a8f1a053bb85/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d35eb385-1af5-47f8-8b8d-a8f1a053bb85/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d35eb385-1af5-47f8-8b8d-a8f1a053bb85/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d35eb385-1af5-47f8-8b8d-a8f1a053bb85/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d35eb385-1af5-47f8-8b8d-a8f1a053bb85/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d35eb385-1af5-47f8-8b8d-a8f1a053bb85/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/apache-maven-3.9.3-bin/apache-maven-3.9.3" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SNeF1kfLhAdCL7E85gMfa8Ixu5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maswiatek/IdeaProjects/devops-bootcamp-2023-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;09ea7a84c2ef18a848023b5052649574&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.deloitte.ads.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.Application" />
+      <module name="Mariosy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deloitte.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendationsTest.getReceivedMarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mariosy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deloitte.ads.service.MariosService" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.entity.RecommendationsTest" />
+      <option name="METHOD_NAME" value="getReceivedMarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendationsTest.getUsers2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mariosy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deloitte.ads.service.MariosService" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.entity.RecommendationsTest" />
+      <option name="METHOD_NAME" value="getUsers2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendationsTest.getUsersWhenEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mariosy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deloitte.ads.service.MariosService" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.entity.RecommendationsTest" />
+      <option name="METHOD_NAME" value="getUsersWhenEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendationsTest.getUsersWhenNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mariosy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.deloitte.ads.service.MariosService" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.entity.RecommendationsTest" />
+      <option name="METHOD_NAME" value="getUsersWhenNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.RecommendationsTest.getUsersWhenNull" />
+        <item itemvalue="JUnit.RecommendationsTest.getUsersWhenEmpty" />
+        <item itemvalue="JUnit.RecommendationsTest.getUsers2" />
+        <item itemvalue="JUnit.RecommendationsTest.getReceivedMarios" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bc57369-6e7a-41eb-9f40-a88e386b2859" name="Changes" comment="" />
+      <created>1688991359970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688991359970</updated>
+      <workItem from="1689233192536" duration="2055000" />
+      <workItem from="1689237010702" duration="753000" />
+      <workItem from="1689237782258" duration="23666000" />
+      <workItem from="1689324410055" duration="10791000" />
+      <workItem from="1689344294660" duration="395000" />
+      <workItem from="1689524051853" duration="596000" />
+      <workItem from="1689584999062" duration="10591000" />
+      <workItem from="1689666365841" duration="198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mariosy$RecommendationsTest.ic" NAME="RecommendationsTest Coverage Results" MODIFIED="1689062919301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.deloitte.ads.entity.*</FILTER>
+    </SUITE>
+  </component>
+</project>
