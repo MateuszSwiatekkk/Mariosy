@@ -6,7 +6,6 @@ import com.deloitte.ads.entity.User;
 import com.deloitte.ads.repository.MariosRepository;
 import com.deloitte.ads.repository.UserRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -18,7 +17,6 @@ import java.util.UUID;
 @AllArgsConstructor
 public class MariosService {
     private final MariosRepository mariosRepository;
-    private final UserRepository userRepository;
     private final UserService userService;
 
     public Set<Marios> getMarios() {
@@ -32,16 +30,16 @@ public class MariosService {
         Set<UUID> recipentIds = mariosDTO.getRecipents();
         Set<User> recipentUsers = new HashSet<>();
 
-        for(UUID id : recipentIds){
+        for (UUID id : recipentIds) {
             recipentUsers.add(userService.getUserById(id));
         }
 
-        Marios marios = new Marios(mariosDTO.getMariosTypes(), mariosDTO.getMessage(), recipentUsers,sender);
+        Marios marios = new Marios(mariosDTO.getMariosTypes(), mariosDTO.getMessage(), recipentUsers, sender);
         mariosRepository.save(marios);
     }
 
     public Set<Marios> getUserCreatedMarios(UUID userId) {
-        User user=userService.getUserById(userId);
+        User user = userService.getUserById(userId);
         return user.getCreatedMarios();
     }
 
@@ -52,42 +50,6 @@ public class MariosService {
 
     public void deleteMarios(UUID mariosId) {
         Marios marios = mariosRepository.findByexternalKeyMarios(mariosId);
-//        Set<User> users = marios.getRecipents();
-//        for(User user:users){
-//            user.getReceivedMarios().remove(marios);
-//        }
-//        marios.setRecipents(null);
         mariosRepository.delete(marios);
     }
-//    public Recommendations(Set<Marios> marios, Set<User> users) {
-//    }
-//
-//
-//    public Set<User> getUsers() {
-//        return users;
-//    }
-//
-//    public User findUserById(long id) {
-//        return users.stream()
-//                .filter(user -> user.getId()==id).findAny().orElseThrow();
-//    }
-//
-//    public Set<Marios> getSentMarios(long userId) {
-//        return marios.stream().filter(m -> m.getSender().getId()==userId).collect(Collectors.toSet());
-//    }
-//
-//    public Set<Marios> getReceivedMarios(long userId) {
-//        return marios.stream()
-//                .filter(marios -> marios.getRecipents().stream()
-//                        .anyMatch(user -> user.getId()==userId))
-//                .collect(Collectors.toSet());
-//    }
-//    public void createMarios(long id, String mariostype, User sender, List<User> recipents, String message){
-//        Marios nextMarios=new Marios(id, mariostype, sender, recipents, message);
-//        marios.add(nextMarios);
-//    }
-//    public void createUser(long id,String name,String surname,String email){
-//        User nextUser=new User(id,name,surname,email);
-//        users.add(nextUser);
-//    }
 }

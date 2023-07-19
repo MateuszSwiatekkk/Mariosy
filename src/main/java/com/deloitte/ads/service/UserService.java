@@ -1,11 +1,9 @@
 package com.deloitte.ads.service;
 
-import com.deloitte.ads.entity.Marios;
-import com.deloitte.ads.entity.User;
 import com.deloitte.ads.dto.UserDTO;
+import com.deloitte.ads.entity.User;
 import com.deloitte.ads.repository.UserRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -28,7 +26,7 @@ public class UserService {
     }
 
     public void createUser(UserDTO userDTO) {
-        User nextUser = new User(userDTO.getName(), userDTO.getSurname(), userDTO.getEmail(),new HashSet<>(),new HashSet<>());
+        User nextUser = new User(userDTO.getName(), userDTO.getSurname(), userDTO.getEmail(), new HashSet<>(), new HashSet<>());
         userRepository.save(nextUser);
     }
 }

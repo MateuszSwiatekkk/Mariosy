@@ -25,7 +25,7 @@ public class User {
     @JsonIgnore
     private Long userid;
 
-    @Column(name="externalkeyuser")
+    @Column(name = "externalkeyuser")
     private UUID externalKeyUser = UUID.randomUUID();
 
     @Column(name = "name")

@@ -1,6 +1,5 @@
 package com.deloitte.ads.dto;
 
-import com.deloitte.ads.entity.User;
 import lombok.Getter;
 import lombok.Setter;
 

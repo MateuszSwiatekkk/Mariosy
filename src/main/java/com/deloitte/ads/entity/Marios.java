@@ -1,7 +1,10 @@
 package com.deloitte.ads.entity;
 
 import com.fasterxml.jackson.annotation.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Set;
@@ -22,7 +25,7 @@ public class Marios {
     @JsonIgnore
     private Long mariosId;
 
-    @Column(name="externalkeymarios")
+    @Column(name = "externalkeymarios")
     private UUID externalKeyMarios = UUID.randomUUID();
 
     @Column(name = "mariostype")

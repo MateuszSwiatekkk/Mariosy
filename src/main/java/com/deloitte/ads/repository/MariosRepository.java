@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface MariosRepository extends JpaRepository<Marios,Long> {
-Marios findByexternalKeyMarios(UUID id);
+public interface MariosRepository extends JpaRepository<Marios, Long> {
+    Marios findByexternalKeyMarios(UUID id);
 }

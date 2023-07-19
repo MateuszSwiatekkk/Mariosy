@@ -1,8 +1,7 @@
 package com.deloitte.ads.controller;
 
-import com.deloitte.ads.entity.Marios;
-import com.deloitte.ads.entity.User;
 import com.deloitte.ads.dto.UserDTO;
+import com.deloitte.ads.entity.User;
 import com.deloitte.ads.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -20,8 +19,9 @@ public class UserController {
     public Set<User> getAllUsers() {
         return userService.getUsers();
     }
+
     @GetMapping("/{userId}")
-    public User getUserById(@PathVariable UUID userId){
+    public User getUserById(@PathVariable UUID userId) {
         return userService.getUserById(userId);
     }
 
@@ -30,9 +30,4 @@ public class UserController {
         userService.createUser(user);
     }
 
-//    @GetMapping("{userId}")
-//    public User findUserById(@PathVariable long userId) {
-//        return recommendations.findUserById(userId);
-//    }
-//
 }
