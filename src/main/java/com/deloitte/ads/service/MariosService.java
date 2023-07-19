@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
-
+import java.util.UUID;
 
 
 @Service
@@ -26,43 +26,31 @@ public class MariosService {
     }
 
     public void createMarios(MariosDTO mariosDTO) {
-//        User user1=new User("name1","surname1","mail1",new HashSet<>(),new HashSet<>());
-//        User user2=new User("name2","surname2","mail2",new HashSet<>(),new HashSet<>());
-//        User user3=new User("name3","surname3","mail3",new HashSet<>(),new HashSet<>());
-
-//        userRepository.save(user1);
-//        userRepository.save(user2);
-//        userRepository.save(user3);
-        Long senderId = mariosDTO.getSenderId();
+        UUID senderId = mariosDTO.getSexternalKeyMarios();
         User sender = userService.getUserById(senderId);
 
-        Set<Long> recipentIds = mariosDTO.getRecipents();
+        Set<UUID> recipentIds = mariosDTO.getRecipents();
         Set<User> recipentUsers = new HashSet<>();
-        for(Long id : recipentIds){
+        for(UUID id : recipentIds){
             recipentUsers.add(userService.getUserById(id));
         }
 
-
         Marios marios = new Marios(mariosDTO.getMariosTypes(), mariosDTO.getMessage(), recipentUsers,sender);
         mariosRepository.save(marios);
-
-
-
-
     }
 
-    public Set<Marios> getUserCreatedMarios(Long userId) {
+    public Set<Marios> getUserCreatedMarios(UUID userId) {
         User user=userService.getUserById(userId);
         return user.getCreatedMarios();
     }
 
-    public Set<Marios> getUserReceivedMarios(Long userId) {
+    public Set<Marios> getUserReceivedMarios(UUID userId) {
         User user = userService.getUserById(userId);
         return user.getReceivedMarios();
     }
 
-    public void deleteMarios(Long mariosId) {
-        Marios marios = mariosRepository.findById(mariosId).orElseThrow();
+    public void deleteMarios(UUID mariosId) {
+        Marios marios = mariosRepository.findByexternalKeyMarios(mariosId);
 //        Set<User> users = marios.getRecipents();
 //        for(User user:users){
 //            user.getReceivedMarios().remove(marios);

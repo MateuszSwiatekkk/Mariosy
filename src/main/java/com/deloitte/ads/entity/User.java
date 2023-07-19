@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Set;
+import java.util.UUID;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -17,11 +18,15 @@ import java.util.Set;
 @Setter
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "userid")
+        property = "externalKeyUser")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonIgnore
     private Long userid;
+
+    @Column(name="externalkeyuser")
+    private UUID externalKeyUser = UUID.randomUUID();
 
     @Column(name = "name")
     private String name;
@@ -40,7 +45,7 @@ public class User {
             mappedBy = "sender",
             cascade = {CascadeType.ALL})
     @JsonManagedReference
-    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "mariosId")
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "externalKeyMarios")
     @JsonIdentityReference(alwaysAsId = true)
     private Set<Marios> createdMarios;
 

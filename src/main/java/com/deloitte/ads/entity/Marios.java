@@ -5,6 +5,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.util.Set;
+import java.util.UUID;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -14,11 +15,15 @@ import java.util.Set;
 @Table(name = "marios")
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "mariosId")
+        property = "externalKeyMarios")
 public class Marios {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonIgnore
     private Long mariosId;
+
+    @Column(name="externalkeymarios")
+    private UUID externalKeyMarios = UUID.randomUUID();
 
     @Column(name = "mariostype")
     private String mariosType;
@@ -32,8 +37,8 @@ public class Marios {
             joinColumns = @JoinColumn(name = "mariosid"),
             inverseJoinColumns = @JoinColumn(name = "userid"))
     @JsonManagedReference
-    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "userid")
-    @JsonIdentityReference(alwaysAsId = true)  //lazy/eager
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "externalKeyUser")
+    @JsonIdentityReference(alwaysAsId = true)
     private Set<User> recipents;
 
     @ManyToOne

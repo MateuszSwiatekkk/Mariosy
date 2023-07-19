@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.UUID;
 
 @Service
 @AllArgsConstructor
@@ -22,8 +23,8 @@ public class UserService {
                 .findAll());
     }
 
-    public User getUserById(Long id) {
-        return userRepository.findById(id).orElseThrow();
+    public User getUserById(UUID id) {
+        return userRepository.findByExternalKeyUser(id);
     }
 
     public void createUser(UserDTO userDTO) {

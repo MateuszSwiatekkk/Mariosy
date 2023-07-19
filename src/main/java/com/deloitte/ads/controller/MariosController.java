@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Set;
+import java.util.UUID;
 
 //GET:all marios, user sent marios,user received marios //DONE
 //POST:marios //DONE
@@ -23,11 +24,11 @@ public class MariosController {
         return mariosService.getMarios();
     }
     @GetMapping("/{userId}/createdMarios")
-    public Set<Marios>getUserCreatedMarios(@PathVariable Long userId){
+    public Set<Marios>getUserCreatedMarios(@PathVariable UUID userId){
         return mariosService.getUserCreatedMarios(userId);
     }
     @GetMapping("/{userId}/receivedMarios")
-    public Set<Marios>getUserReceivedMarios(@PathVariable Long userId){
+    public Set<Marios>getUserReceivedMarios(@PathVariable UUID userId){
         return mariosService.getUserReceivedMarios(userId);
     }
     @PostMapping("/createMarios")
@@ -36,7 +37,7 @@ public class MariosController {
     }
 
     @DeleteMapping("/delete/{mariosId}")
-    public void deleteMarios(@PathVariable Long mariosId){
+    public void deleteMarios(@PathVariable UUID mariosId){
         mariosService.deleteMarios(mariosId);
     }
 //
