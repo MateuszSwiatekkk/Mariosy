@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bc57369-6e7a-41eb-9f40-a88e386b2859" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/controller/MariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/controller/MariosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/dto/MariosDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/dto/MariosDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/Marios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/Marios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/repository/MariosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/repository/MariosRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/MariosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/MariosService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

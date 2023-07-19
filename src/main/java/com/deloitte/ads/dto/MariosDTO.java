@@ -11,7 +11,7 @@ import java.util.UUID;
 @Setter
 public class MariosDTO {
     private String mariosTypes;
-    private UUID sexternalKeyMarios;
+    private UUID externalKeyMarios;
     private Set<UUID> recipents;
     private String message;
 }

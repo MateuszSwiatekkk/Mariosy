@@ -26,11 +26,12 @@ public class MariosService {
     }
 
     public void createMarios(MariosDTO mariosDTO) {
-        UUID senderId = mariosDTO.getSexternalKeyMarios();
+        UUID senderId = mariosDTO.getExternalKeyMarios();
         User sender = userService.getUserById(senderId);
 
         Set<UUID> recipentIds = mariosDTO.getRecipents();
         Set<User> recipentUsers = new HashSet<>();
+
         for(UUID id : recipentIds){
             recipentUsers.add(userService.getUserById(id));
         }

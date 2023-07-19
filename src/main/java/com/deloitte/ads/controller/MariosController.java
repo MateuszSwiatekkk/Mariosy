@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Set;
 import java.util.UUID;
 
-//GET:all marios, user sent marios,user received marios //DONE
-//POST:marios //DONE
+
 @RestController
 @RequestMapping("/api/marios")
 @AllArgsConstructor

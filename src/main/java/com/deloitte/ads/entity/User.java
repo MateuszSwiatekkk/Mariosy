@@ -42,6 +42,7 @@ public class User {
     private Set<Marios> receivedMarios;
 
     @OneToMany(
+            fetch = FetchType.EAGER,
             mappedBy = "sender",
             cascade = {CascadeType.ALL})
     @JsonManagedReference

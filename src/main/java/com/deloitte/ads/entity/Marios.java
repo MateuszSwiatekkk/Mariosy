@@ -52,5 +52,4 @@ public class Marios {
         this.recipents = recipents;
         this.sender = sender;
     }
-
 }
