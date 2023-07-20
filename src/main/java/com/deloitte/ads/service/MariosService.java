@@ -4,9 +4,9 @@ import com.deloitte.ads.dto.MariosDTO;
 import com.deloitte.ads.entity.Marios;
 import com.deloitte.ads.entity.User;
 import com.deloitte.ads.repository.MariosRepository;
-import com.deloitte.ads.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -24,10 +24,10 @@ public class MariosService {
     }
 
     public void createMarios(MariosDTO mariosDTO) {
-        UUID senderId = mariosDTO.getExternalKeyMarios();
+        UUID senderId = mariosDTO.getExternalKeyUser();
         User sender = userService.getUserById(senderId);
 
-        Set<UUID> recipentIds = mariosDTO.getRecipents();
+        Set<UUID> recipentIds = mariosDTO.getRecipients();
         Set<User> recipentUsers = new HashSet<>();
 
         for (UUID id : recipentIds) {
@@ -48,8 +48,21 @@ public class MariosService {
         return user.getReceivedMarios();
     }
 
+    @Transactional
     public void deleteMarios(UUID mariosId) {
-        Marios marios = mariosRepository.findByexternalKeyMarios(mariosId);
+        Marios marios = mariosRepository.findByExternalKeyMarios(mariosId);
+
+        User sender = marios.getSender();
+        if(sender != null) {
+            sender.getCreatedMarios().remove(marios);
+        }
+
+        Set<User> recipients = marios.getRecipients();
+        if(recipients != null) {
+            for(User recipient : recipients) {
+                recipient.getReceivedMarios().remove(marios);
+            }
+        }
         mariosRepository.delete(marios);
     }
 }

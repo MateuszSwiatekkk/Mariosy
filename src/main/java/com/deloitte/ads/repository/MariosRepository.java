@@ -9,5 +9,6 @@ import java.util.UUID;
 
 @Repository
 public interface MariosRepository extends JpaRepository<Marios, Long> {
-    Marios findByexternalKeyMarios(UUID id);
+    Marios findByExternalKeyMarios(UUID id);
+    void deleteByExternalKeyMarios(UUID externalKeyMarios);
 }

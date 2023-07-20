@@ -5,14 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bc57369-6e7a-41eb-9f40-a88e386b2859" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/controller/MariosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/controller/MariosController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/dto/MariosDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/dto/MariosDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/Marios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/Marios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/repository/MariosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/repository/MariosRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/MariosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/MariosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/deloitte/ads/entity/RecommendationsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,29 +63,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maswiatek/IdeaProjects/devops-bootcamp-2023-java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;09ea7a84c2ef18a848023b5052649574&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "C:/Users/maswiatek/IdeaProjects/Mariosy/src/test/java/com/deloitte/ads",
+    "last_opened_file_path": "C:/Users/maswiatek/IdeaProjects/devops-bootcamp-2023-java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "spring.configuration.checksum": "09ea7a84c2ef18a848023b5052649574",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -77,79 +99,81 @@
       <recent name="com.deloitte.ads.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.Application" />
+  <component name="RunManager">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mariosy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deloitte.ads.*" />
+          <option name="PATTERN" value="com.deloitte.ads.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.controller.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecommendationsTest.getReceivedMarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.shouldReturnAllUsers_whenGetAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mariosy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deloitte.ads.service.MariosService" />
+          <option name="PATTERN" value="com.deloitte.ads.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.deloitte.ads.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.entity.RecommendationsTest" />
-      <option name="METHOD_NAME" value="getReceivedMarios" />
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnAllUsers_whenGetAllUsers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecommendationsTest.getUsers2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mariosy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deloitte.ads.service.MariosService" />
+          <option name="PATTERN" value="com.deloitte.ads.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.deloitte.ads.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.entity.RecommendationsTest" />
-      <option name="METHOD_NAME" value="getUsers2" />
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="testCreateUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecommendationsTest.getUsersWhenEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.testGetAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mariosy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deloitte.ads.service.MariosService" />
+          <option name="PATTERN" value="com.deloitte.ads.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.deloitte.ads.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.entity.RecommendationsTest" />
-      <option name="METHOD_NAME" value="getUsersWhenEmpty" />
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="testGetAllUsers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecommendationsTest.getUsersWhenNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mariosy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.deloitte.ads.service.MariosService" />
+          <option name="PATTERN" value="com.deloitte.ads.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.deloitte.ads.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.entity.RecommendationsTest" />
-      <option name="METHOD_NAME" value="getUsersWhenNull" />
+      <option name="PACKAGE_NAME" value="com.deloitte.ads.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.deloitte.ads.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="testGetUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.RecommendationsTest.getUsersWhenNull" />
-        <item itemvalue="JUnit.RecommendationsTest.getUsersWhenEmpty" />
-        <item itemvalue="JUnit.RecommendationsTest.getUsers2" />
-        <item itemvalue="JUnit.RecommendationsTest.getReceivedMarios" />
+        <item itemvalue="JUnit.UserControllerTest.shouldReturnAllUsers_whenGetAllUsers" />
+        <item itemvalue="JUnit.UserControllerTest.testGetUserById" />
+        <item itemvalue="JUnit.UserControllerTest.testGetAllUsers" />
+        <item itemvalue="JUnit.UserControllerTest.testCreateUser" />
+        <item itemvalue="JUnit.UserControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +207,7 @@
       <workItem from="1689666365841" duration="465000" />
       <workItem from="1689666843484" duration="7050000" />
       <workItem from="1689750790029" duration="7787000" />
+      <workItem from="1689837714308" duration="14450000" />
     </task>
     <servers />
   </component>
@@ -199,6 +224,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.deloitte.ads.entity.Marios" memberName="mariosId" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Mariosy$RecommendationsTest.ic" NAME="RecommendationsTest Coverage Results" MODIFIED="1689062919301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

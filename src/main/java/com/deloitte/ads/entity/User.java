@@ -1,10 +1,7 @@
 package com.deloitte.ads.entity;
 
 import com.fasterxml.jackson.annotation.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.Set;
@@ -16,6 +13,7 @@ import java.util.UUID;
 @Table(name = "users")
 @Getter
 @Setter
+@Builder
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
         property = "externalKeyUser")
@@ -37,7 +35,7 @@ public class User {
     @Column(name = "email")
     private String email;
 
-    @ManyToMany(mappedBy = "recipents")
+    @ManyToMany(mappedBy = "recipients")
     @JsonBackReference
     private Set<Marios> receivedMarios;
 
