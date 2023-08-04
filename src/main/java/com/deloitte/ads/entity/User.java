@@ -20,7 +20,6 @@ import java.util.UUID;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @JsonIgnore
     private Long userid;
 
     @Column(name = "externalkeyuser")

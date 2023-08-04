@@ -34,7 +34,7 @@ public class MariosService {
             recipentUsers.add(userService.getUserById(id));
         }
 
-        Marios marios = new Marios(mariosDTO.getMariosTypes(), mariosDTO.getMessage(), recipentUsers, sender);
+        Marios marios = new Marios(mariosDTO.getMariosTypes(),mariosDTO.getTitle(), mariosDTO.getMessage(), recipentUsers, sender);
         mariosRepository.save(marios);
     }
 

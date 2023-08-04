@@ -22,7 +22,7 @@ import java.util.UUID;
 public class Marios {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @JsonIgnore
+    //@JsonIgnore
     private Long mariosId;
 
     @Column(name = "externalkeymarios")
@@ -30,6 +30,9 @@ public class Marios {
 
     @Column(name = "mariostype")
     private String mariosType;
+
+    @Column(name="title")
+    private String title;
 
     @Column(name = "message")
     private String message;
@@ -46,11 +49,14 @@ public class Marios {
 
     @ManyToOne
     @JoinColumn(name = "senderid")
-    @JsonBackReference
+//    @JsonBackReference
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "externalKeyUser")
+    @JsonIdentityReference(alwaysAsId = true)
     private User sender;
 
-    public Marios(String mariosType, String message, Set<User> recipients, User sender) {
+    public Marios(String mariosType, String title, String message, Set<User> recipients, User sender) {
         this.mariosType = mariosType;
+        this.title=title;
         this.message = message;
         this.recipients = recipients;
         this.sender = sender;

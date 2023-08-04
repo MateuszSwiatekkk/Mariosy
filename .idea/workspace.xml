@@ -6,30 +6,38 @@
   <component name="ChangeListManager">
     <list default="true" id="3bc57369-6e7a-41eb-9f40-a88e386b2859" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d0e06dd-17ae-48e7-af8b-7539eb2d42d5/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d561591f-dd24-491e-a631-b375c11f288d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00d93403-8b6d-4c3d-aede-c02d5eb6265f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00d93403-8b6d-4c3d-aede-c02d5eb6265f/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00d93403-8b6d-4c3d-aede-c02d5eb6265f/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00d93403-8b6d-4c3d-aede-c02d5eb6265f/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00d93403-8b6d-4c3d-aede-c02d5eb6265f/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dcafebf-1f06-4c68-af71-3c0a79afc40d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50698392-4370-4ee6-abee-7a0d61e3191b/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/540ab4c6-fb6e-4d99-acd1-c71c2ed15640.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/540ab4c6-fb6e-4d99-acd1-c71c2ed15640/storage_v2/_src_/database/mariosydb.aMp6xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/540ab4c6-fb6e-4d99-acd1-c71c2ed15640/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/540ab4c6-fb6e-4d99-acd1-c71c2ed15640/storage_v2/_src_/database/mariosydb.aMp6xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/540ab4c6-fb6e-4d99-acd1-c71c2ed15640/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/540ab4c6-fb6e-4d99-acd1-c71c2ed15640/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/540ab4c6-fb6e-4d99-acd1-c71c2ed15640/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/dto/MariosDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/dto/MariosDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/Marios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/Marios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/repository/MariosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/repository/MariosRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/MariosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/MariosService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/deloitte/ads/entity/RecommendationsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,34 +71,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_directory_selection": "C:/Users/maswiatek/IdeaProjects/Mariosy/src/test/java/com/deloitte/ads",
-    "last_opened_file_path": "C:/Users/maswiatek/IdeaProjects/devops-bootcamp-2023-java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "spring.configuration.checksum": "09ea7a84c2ef18a848023b5052649574",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/maswiatek/IdeaProjects/Mariosy/src/test/java/com/deloitte/ads&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maswiatek/VSC/MariosyFront&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;09ea7a84c2ef18a848023b5052649574&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -181,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserControllerTest" />
         <item itemvalue="JUnit.UserControllerTest.shouldReturnAllUsers_whenGetAllUsers" />
         <item itemvalue="JUnit.UserControllerTest.testGetUserById" />
         <item itemvalue="JUnit.UserControllerTest.testGetAllUsers" />
         <item itemvalue="JUnit.UserControllerTest.testCreateUser" />
-        <item itemvalue="JUnit.UserControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +215,16 @@
       <workItem from="1689666365841" duration="465000" />
       <workItem from="1689666843484" duration="7050000" />
       <workItem from="1689750790029" duration="7787000" />
-      <workItem from="1689837714308" duration="14450000" />
+      <workItem from="1689837714308" duration="15291000" />
+      <workItem from="1689926410714" duration="20000" />
+      <workItem from="1689938575010" duration="561000" />
+      <workItem from="1690227825551" duration="1385000" />
+      <workItem from="1690270083181" duration="2298000" />
+      <workItem from="1690359855666" duration="3997000" />
+      <workItem from="1690441486553" duration="228000" />
+      <workItem from="1690450424556" duration="6591000" />
+      <workItem from="1690873927329" duration="3539000" />
+      <workItem from="1690961216026" duration="5388000" />
     </task>
     <servers />
   </component>

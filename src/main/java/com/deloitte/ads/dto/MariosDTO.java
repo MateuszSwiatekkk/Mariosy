@@ -12,5 +12,6 @@ public class MariosDTO {
     private String mariosTypes;
     private UUID externalKeyUser;
     private Set<UUID> recipients;
+    private String title;
     private String message;
 }
