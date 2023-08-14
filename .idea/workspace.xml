@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bc57369-6e7a-41eb-9f40-a88e386b2859" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a676d66-b31c-4e5b-b86d-ec6eab78f60c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9a676d66-b31c-4e5b-b86d-ec6eab78f60c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a676d66-b31c-4e5b-b86d-ec6eab78f60c/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9a676d66-b31c-4e5b-b86d-ec6eab78f60c/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/deloitte/ads/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/deloitte/ads/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/deloitte/ads/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/deloitte/ads/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/deloitte/ads/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +207,7 @@
       <workItem from="1691566225760" duration="3052000" />
       <workItem from="1691587323408" duration="1639000" />
       <workItem from="1691675945453" duration="1444000" />
-      <workItem from="1691740585952" duration="8520000" />
+      <workItem from="1691740585952" duration="18092000" />
     </task>
     <servers />
   </component>
